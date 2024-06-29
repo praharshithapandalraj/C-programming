@@ -1,0 +1,20 @@
+Print n natural numbers using flag and with comma 
+output format 1,2,3,4,5
+
+#include<stdio.h>
+void main(){
+    int i,n;
+    scanf("%d",&n);
+    i=1;
+    int flag=0;
+    while(i<=n){
+        if(flag==0){
+            printf("%d",i);
+            flag=1;
+        }
+        else{
+            printf(",%d",i);
+        }
+        i++;
+    }
+}
