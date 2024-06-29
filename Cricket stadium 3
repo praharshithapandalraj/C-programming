@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    int l,b,p,q;
+    scanf("%d%d",&l,&b);
+    p=l+b;
+    p=2*p;
+    printf("%d\n",p);
+    q=l*b;
+    printf("%d",q);
+    return 0;
+}
