@@ -1,0 +1,13 @@
+Program to print n natural numbers in reverse using 'for' loop
+
+#include<stdio.h>
+void main(){
+int i,n;
+scanf("%d",&n);
+for(i=n;i>=1;i--){
+    printf("%d  ",i);
+}
+}
+
+input 10
+output 10  9  8  7  6  5  4  3  2  1
