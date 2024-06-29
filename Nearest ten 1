@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    int n;
+    scanf("%d",&n);
+    int nearest=round(n/10.0)*10;
+    printf("%d",nearest);
+    return 0;
+}
