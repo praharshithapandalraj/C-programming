@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int a,r,t;
+    scanf("%d%d%d",&a,&r,&t);
+    float i=(a*t*r)/100;
+    printf("%.2f\n",i);
+    float am=a+i;
+    printf("%.2f\n",am);
+    float d=(i*2)/100;
+    printf("%.2f\n",d);
+    float s=am-d;
+    printf("%.2f",s);
+    return 0;
+}
