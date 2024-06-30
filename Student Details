@@ -1,0 +1,53 @@
+QUESTION:
+Jai and Bala once went to a college. The students of that college were creating software in which when you enter an id number and student name it should display the entered details. Both wish to solve this problem using class and object.
+
+Input Format
+Input consists of two integers and one string.
+The first input consists of the name.
+The second input consists of the roll number.
+The third input consists of marks.
+
+Output Format
+The output consists of three integers and one string. First output name followed by the roll number and marks and percentage.
+Sample Input 0
+
+Jai
+12
+458
+
+OUTPUT:
+
+Enter name:
+Enter roll number:
+Enter total marks out of 500:
+Student details:
+Name:Jai
+Roll Number:12
+Total:458
+Percentage:91.6
+
+CODE:
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    int r,m;
+    char n[100];
+    printf("Enter name:\n");
+    scanf("%s",n);
+    printf("Enter roll number:\n");
+    scanf("%d", &r);
+    printf("Enter total marks out of 500:\n");
+    scanf("%d", &m);
+    printf("Student details:\n");
+    float p = (float)m / 500 * 100;
+    printf("Name:%s\n",n);
+    printf("Roll Number:%d\n",r);
+    printf("Total:%d\n",m);
+    printf("Percentage:%.1f",p);
+    return 0;
+}
